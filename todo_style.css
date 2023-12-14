@@ -1,0 +1,76 @@
+body{
+    background-image: linear-gradient(to top, #9DB0CE,#B8D8E3,#FEE1DD,#E9C2C5,#cea0aa);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    margin: 0;
+}
+#addTask{
+    border-radius: 20px;
+    background-color: #535878;
+    border: 2px solid #cea0aa;
+    color: white;
+    text-align: center;
+}
+h1{
+    color: aliceblue;
+    font-size: 35px;
+}
+#container{
+    max-width: 500px;
+    background-color: #535878 ;
+    text-align: center;
+    border-radius: 10px;
+    margin: 200px auto;
+    padding:20px ;
+}
+#input{
+    border: none;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+    background-color: #535878 ;
+    color: white;
+    padding: 5px;
+}
+#input:focus, #input:hover {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul div{
+    text-decoration: none;
+    color: rgb(58, 60, 60);
+    list-style: none;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    width: 200px;
+    background-color: #e9c2c5;
+    border-radius: 20px;
+    padding: 8px;
+    padding-left: 25px;
+    margin: 0 auto 12px;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul div.checked{
+    text-decoration: line-through;
+}
+ul div img{
+    width: 20px;
+    color: transparent;
+    position: absolute;
+    right: 20px;
+}
+
+input[type='checkbox']{
+    vertical-align: middle;
+    margin-right: 8px;
+    background-color: #535878;
+}
